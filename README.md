@@ -1,13 +1,12 @@
-
 # 🌟 Daily Motivation Hub
 
 ### A Python-Powered Application for Daily Inspiration Through Public APIs
 
 \<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge\&logo=python\&logoColor=white)"/>
+&#x20; \<img src="[https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge\&logo=python\&logoColor=white)"/>
 &#x20; \<img src="[https://img.shields.io/badge/API-Integration-009688?style=for-the-badge](https://img.shields.io/badge/API-Integration-009688?style=for-the-badge)"/>
-&#x20; \<img src="[https://img.shields.io/badge/Excel-Automation-217346?style=for-the-badge&amp;logo=microsoftexcel&amp;logoColor=white](https://img.shields.io/badge/Excel-Automation-217346?style=for-the-badge\&logo=microsoftexcel\&logoColor=white)"/>
-&#x20; \<img src="[https://img.shields.io/badge/Project-Student%20Development-555555?style=for-the-badge](<https://img.shields.io/badge/Project-Student%20Development-555555?style=for-the-badge>)"/>
+&#x20; \<img src="[https://img.shields.io/badge/Excel-Automation-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white](https://img.shields.io/badge/Excel-Automation-217346?style=for-the-badge\&logo=microsoftexcel\&logoColor=white)"/>
+&#x20; \<img src="[https://img.shields.io/badge/Project-Student%20Development-555555?style=for-the-badge](https://img.shields.io/badge/Project-Student%20Development-555555?style=for-the-badge)"/>
 \</p>
 
 \<p align="center">
@@ -31,11 +30,11 @@ The goal of this project is to explore API integration, data retrieval, Python a
 | Feature                 | Description                                           |
 | :---------------------- | :---------------------------------------------------- |
 | 💡 Daily Advice         | Fetch random advice through a public API              |
-| ✨ Inspirational Quotes | Retrieve and display random quotes                    |
+| ✨ Inspirational Quotes  | Retrieve and display random quotes                    |
 | 📚 Book Recommendations | Discover books using Open Library                     |
 | 🐶 Random Dog Images    | Fetch and download random dog images                  |
 | 📊 Data Statistics      | View stored records across categories                 |
-| ⚡ Get Everything       | Retrieve all four content categories in one operation |
+| ⚡ Get Everything        | Retrieve all four content categories in one operation |
 | 📁 Excel Storage        | Save retrieved information in Excel workbooks         |
 | 🎨 Interactive Terminal | Colorful terminal interface with progress animations  |
 
@@ -52,10 +51,10 @@ The goal of this project is to explore API integration, data retrieval, Python a
 ### Python Libraries
 
 \<p>
-&#x20; \<img src="[https://img.shields.io/badge/Requests-HTTP%20Client-2CA5E0?style=flat-square](<https://img.shields.io/badge/Requests-HTTP%20Client-2CA5E0?style=flat-square>)"/>
-&#x20; \<img src="[https://img.shields.io/badge/Rich-Terminal%20UI-555555?style=flat-square](<https://img.shields.io/badge/Rich-Terminal%20UI-555555?style=flat-square>)"/>
-&#x20; \<img src="[https://img.shields.io/badge/Colorama-Terminal%20Colors-008000?style=flat-square](<https://img.shields.io/badge/Colorama-Terminal%20Colors-008000?style=flat-square>)"/>
-&#x20; \<img src="[https://img.shields.io/badge/OpenPyXL-Excel%20Automation-217346?style=flat-square](<https://img.shields.io/badge/OpenPyXL-Excel%20Automation-217346?style=flat-square>)"/>
+&#x20; \<img src="[https://img.shields.io/badge/Requests-HTTP%20Client-2CA5E0?style=flat-square](https://img.shields.io/badge/Requests-HTTP%20Client-2CA5E0?style=flat-square)"/>
+&#x20; \<img src="[https://img.shields.io/badge/Rich-Terminal%20UI-555555?style=flat-square](https://img.shields.io/badge/Rich-Terminal%20UI-555555?style=flat-square)"/>
+&#x20; \<img src="[https://img.shields.io/badge/Colorama-Terminal%20Colors-008000?style=flat-square](https://img.shields.io/badge/Colorama-Terminal%20Colors-008000?style=flat-square)"/>
+&#x20; \<img src="[https://img.shields.io/badge/OpenPyXL-Excel%20Automation-217346?style=flat-square](https://img.shields.io/badge/OpenPyXL-Excel%20Automation-217346?style=flat-square)"/>
 \</p>
 
 - **Requests:** Communicating with external REST APIs.
@@ -71,8 +70,8 @@ The goal of this project is to explore API integration, data retrieval, Python a
 
 The application uses the following public API endpoints in its current implementation.
 
-| API                     | Purpose              | Endpoint                                   |
-| :---------------------- | :------------------- | :----------------------------------------- |
+| API                     | Purpose              | Endpoint                                    |
+| :---------------------- | :------------------- | :------------------------------------------ |
 | Advice Slip / ZenQuotes | Daily advice         | [ZenQuotes](https://zenquotes.io/)          |
 | Type.fit                | Inspirational quotes | [Type.fit API](https://type.fit/api/quotes) |
 | Open Library            | Book recommendations | [Open Library](https://openlibrary.org/)    |
@@ -95,13 +94,13 @@ The application provides seven interactive options:
 
 | Option | Function                    |
 | :----: | :-------------------------- |
-|   1   | Get Daily Advice            |
-|   2   | Get Inspirational Quote     |
-|   3   | Get Book Recommendation     |
-|   4   | View Application Statistics |
-|   5   | Get Random Dog Image        |
-|   6   | Get All Data                |
-|   7   | Exit Application            |
+|    1   | Get Daily Advice            |
+|    2   | Get Inspirational Quote     |
+|    3   | Get Book Recommendation     |
+|    4   | View Application Statistics |
+|    5   | Get Random Dog Image        |
+|    6   | Get All Data                |
+|    7   | Exit Application            |
 
 ---
 
@@ -187,8 +186,8 @@ The application initializes its local data directories and Excel workbooks when 
 
 The application uses Excel workbooks for local data persistence.
 
-| Workbook        | Stored Information                                          |
-| :-------------- | :---------------------------------------------------------- |
+| Workbook      | Stored Information                                          |
+| :------------ | :---------------------------------------------------------- |
 | `advice.xlsx` | Advice ID, advice text and timestamp                        |
 | `quotes.xlsx` | Quote, author and timestamp                                 |
 | `books.xlsx`  | Book title, author, publication information and timestamp   |
@@ -238,10 +237,10 @@ Interested in Python, Artificial Intelligence, API integration and software engi
 
 \<p>
 &#x20; \<a href="[https://github.com/umbaupesrehaan1-art](https://github.com/umbaupesrehaan1-art)">
-&#x20;   \<img src="[https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge\&logo=github\&logoColor=white)"/>
+&#x20;   \<img src="[https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge\&logo=github\&logoColor=white)"/>
 &#x20; \</a>
 &#x20; \<a href="mailto\:umbaupesrehaan1\@gmail.com">
-&#x20;   \<img src="[https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)"/>
+&#x20;   \<img src="[https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)"/>
 &#x20; \</a>
 \</p>
 
